@@ -1,16 +1,32 @@
+/**
+ * @file gnome-shell.scss
+ * This file includes all the files needed to bring the
+ * Four Kitchens branding to gnome shell. This file will
+ * compile to /gnome-shell/gnome-shell.css, where gnome shell will read it.
+ */
 @import url("/usr/share/gnome-shell/theme/gnome-shell.css");
+/**
+ * @file variables.scss
+ * Contains color, font, and spacing variables for 
+ * the fourkitchens-gnomeshell theme
+ */
+/**
+ * @file dash.scss
+ * Contains styling for the dash within
+ * the fourkitchens-gnomeshell theme
+ */
 #dash {
-  color: #5f5f5f;
-  font-size: 9pt;
-  padding: 4px 0px;
+  padding: 1em 1em;
   background-color: #35aa4e;
-  border: 1px solid rgba(128, 128, 128, 0.4);
-  border-left: 0px;
-  border-radius: 0px 9px 9px 0px;
+  border-radius: 0 1em 1em 0;
 }
 
+/**
+ * @file panel.scss
+ * Contains styling for the panel within
+ * the fourkitchens-gnomeshell theme
+ */
 #panel {
   background-color: #35aa4e;
-  font-weight: bold;
-  height: 1.86em;
+  height: 2em;
 }
