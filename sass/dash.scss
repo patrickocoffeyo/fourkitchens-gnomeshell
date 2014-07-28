@@ -1,0 +1,11 @@
+/**
+ * @file dash.scss
+ * Contains styling for the dash within
+ * the fourkitchens-gnomeshell theme
+ */
+
+#dash {
+  padding: $space $space;
+  background-color: $brand-green;
+  border-radius: 0 $space $space 0;
+}

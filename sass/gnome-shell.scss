@@ -1,17 +1,15 @@
+/**
+ * @file gnome-shell.scss
+ * This file includes all the files needed to bring the
+ * Four Kitchens branding to gnome shell. This file will
+ * compile to /gnome-shell/gnome-shell.css, where gnome shell will read it.
+ */
+
+// Include the system default gnome-shell.css file.
+// This project extends gnome-shell's default theme
 @import url("/usr/share/gnome-shell/theme/gnome-shell.css");
 
-#dash {
-  color: #5f5f5f;
-  font-size: 9pt;
-  padding: 4px 0px;
-  background-color: #35aa4e;
-  border: 1px solid rgba(128, 128, 128, 0.4);
-  border-left: 0px;
-  border-radius: 0px 9px 9px 0px;
-}
-
-#panel {
-  background-color: #35aa4e;
-  font-weight: bold;
-  height: 1.86em;
-}
+// Componenets
+@import 'variables';
+@import 'dash';
+@import 'panel';
