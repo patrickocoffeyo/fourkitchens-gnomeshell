@@ -1,7 +1,5 @@
-var gulp = require('gulp');
-
-// Include plugins
-var sass = sass = require('gulp-ruby-sass');
+var gulp = require('gulp'),
+    sass = require('gulp-ruby-sass');
 
 // Compile Our Sass
 gulp.task('sass', function() {
